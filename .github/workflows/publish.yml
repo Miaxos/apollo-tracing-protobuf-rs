@@ -79,7 +79,7 @@ jobs:
             const name = context.payload.deployment.payload.name;
             const version = context.payload.deployment.payload.version;
             const cratesUrl = `https://crates.io/crates/apollo-tracing-protobuf/${version}`;
-            const state = process.env.PUBLISH_STATE === 'done' ? 'success' : 'failure';
+            const state = 'success';
             const { data: deploymentStatus } = github.repos.createDeploymentStatus({
               owner: context.repo.owner,
               repo: context.repo.repo,
