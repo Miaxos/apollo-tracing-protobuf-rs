@@ -9,7 +9,7 @@ repository = "https://github.com/Miaxos/apollo-tracing-protobuf-rs"
 documentation = "https://github.com/Miaxos/apollo-tracing-protobuf-rs"
 license = "MIT"
 keywords = ["apollo", "tracing", "graphql", "protobuf", "grpc"]
-categories = ["command-line-utilities"]
+categories = ["data-structures"]
 edition = "2018"
 
 [lib]
